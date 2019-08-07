@@ -24,12 +24,11 @@ public class TestController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public Auth secondPage() {
-
+        
         Auth login = new Auth();
         login.setUsername("Deelaka");
         login.setPassword("ABCD");
 
         return login;
     }
-
 }

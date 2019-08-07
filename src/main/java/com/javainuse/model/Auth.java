@@ -5,6 +5,9 @@ public class Auth {
     private String password;
     private String username;
 
+    public Auth() {
+    }
+
     public String getUsername() {
         return username;
     }
@@ -21,6 +24,4 @@ public class Auth {
         this.password = password;
     }
 
-    public Auth() {
-    }
 }
